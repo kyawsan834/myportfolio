@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,600;1,400&display=swap');
+
+:root{
+    --primary-color:#a51818;
+    --secondary-color: #fff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+/* START HEADER SECTION */
+
+header{
+    height: 100vh;
+    background-color: #000;
+    background: linear-gradient(75deg,rgba(165, 24, 24,0.5),rgba(255,255,255,0.4)), url('../assets/img/banner/banner2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Start Navbar */
+
+.logo-texts{
+    /* color: var(--primary-color); */
+    color: #fff;
+    font-size: 1.4rem;
+}
+
+.lines{
+    width: 25px;
+    height: 3px;
+    background-color: var(--primary-color);
+    margin: 7px;
+}
+
+/* .lines1{
+    transform: translate(7px) rotate(-45deg);
+} */
+
+.lines2{
+    /* transform: translate(7px) rotate(-45deg); */
+}
+
+/* .lines3{
+    transform: translate(7px) rotate(45deg);
+} */
+
+.bg-navs{
+   background: #000;
+}
+
+.navs{
+    padding: 20px 30px;
+}
+
+.nav-links{
+    /* color: var(--primary-color); */
+    font-size: 16px;
+    letter-spacing: .5px;
+    margin-left: 0.5rem;
+    transition: all .5s;
+}
+
+.nav-links:hover{
+    color: var(--secondary-color);
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+
+
+
+/* Etart Navbar */
+
+/* Start banner */
+
+.banners{
+    width: 100%;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.headings{
+    width: 80%;
+}
+
+
+.paragraphs{
+    width: 75%;
+}
+
+.banners-imgs{
+    width: 100%;
+    height: 100%;
+}
+
+.btns{
+    width: 120px;
+    height: 120px;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid var(--primary-color);
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 5px 0;
+
+    transition: all .5s;
+}
+
+.btns:nth-child(odd){
+    margin-left: 10px;
+    background-color: var(--primary-color);
+}
+
+.btns:hover:nth-child(odd){ 
+    background:none;
+    border: 2px solid var(--primary-color);   
+    color: #fff;
+}
+
+.btns:hover:nth-child(even){
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+
+
+
+
+
+/* End banner */
+
+/* END HEADER SECTION */
